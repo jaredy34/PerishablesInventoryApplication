@@ -7,8 +7,8 @@ import lombok.RequiredArgsConstructor;
 @Getter
 public class PerishableInventoryForecast {
     private final String perishableName;
-    private final String storeId;
-    private final String perishableId;
+    private final Long perishableId;
+    private final Long storeId;
     private final int amount;
     private final String inventoryUnitType = "pallet";
 }
