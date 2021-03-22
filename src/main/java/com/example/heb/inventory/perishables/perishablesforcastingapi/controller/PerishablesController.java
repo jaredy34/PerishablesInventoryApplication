@@ -9,14 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class PerishablesController {
 
     @GetMapping("/store/{storeId}/perishable/{perishableId}")
-    public PerishableInventoryForecast getPerishableInventoryForecast(@PathVariable String storeId, @PathVariable String perishableId) {
-        PerishableInventoryForecast forecast = new PerishableInventoryForecast();
-
-        forecast.setPerishableId(perishableId);
-        forecast.setPerishableName("lemon");
-        forecast.setStoreId(storeId);
-        forecast.setAmount(4);
-
-        return forecast;
+    public PerishableInventoryForecast getPerishableInventoryForecast(@PathVariable String storeId,
+                                                                      @PathVariable String perishableId) {
+        return new PerishableInventoryForecast("lemon", storeId, perishableId, 4);
     }
 }
