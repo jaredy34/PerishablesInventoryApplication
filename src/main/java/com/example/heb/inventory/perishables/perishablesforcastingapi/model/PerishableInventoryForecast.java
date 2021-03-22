@@ -2,9 +2,10 @@ package com.example.heb.inventory.perishables.perishablesforcastingapi.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 @RequiredArgsConstructor
-@Getter
+@Getter @ToString
 public class PerishableInventoryForecast {
     private final String perishableName;
     private final Long perishableId;
