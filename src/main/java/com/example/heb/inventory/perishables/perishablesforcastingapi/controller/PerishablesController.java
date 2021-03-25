@@ -2,6 +2,8 @@ package com.example.heb.inventory.perishables.perishablesforcastingapi.controlle
 
 import com.example.heb.inventory.perishables.perishablesforcastingapi.model.PerishableInventoryForecast;
 import com.example.heb.inventory.perishables.perishablesforcastingapi.service.PerishableInventoryService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +14,7 @@ import javax.validation.constraints.Digits;
 public class PerishablesController {
     private final PerishableInventoryService perishableInventoryService;
 
+    @Autowired
     public PerishablesController(PerishableInventoryService perishableInventoryService) {
         this.perishableInventoryService = perishableInventoryService;
     }
