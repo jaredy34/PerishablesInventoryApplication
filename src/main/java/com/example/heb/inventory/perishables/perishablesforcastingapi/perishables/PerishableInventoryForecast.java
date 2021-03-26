@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 
 @RequiredArgsConstructor
 @Getter @ToString
-public class PerishableInventoryForecast {
+class PerishableInventoryForecast {
     private final @NotNull String perishableName;
     private final @NotNull Long perishableId;
     private final @Digits(integer = 12, fraction = 0) Long storeId;

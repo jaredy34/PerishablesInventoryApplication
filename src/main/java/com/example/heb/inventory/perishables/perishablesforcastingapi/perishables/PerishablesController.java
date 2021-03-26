@@ -1,7 +1,5 @@
 package com.example.heb.inventory.perishables.perishablesforcastingapi.perishables;
 
-import com.example.heb.inventory.perishables.perishablesforcastingapi.perishables.PerishableInventoryForecast;
-import com.example.heb.inventory.perishables.perishablesforcastingapi.perishables.PerishableInventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
