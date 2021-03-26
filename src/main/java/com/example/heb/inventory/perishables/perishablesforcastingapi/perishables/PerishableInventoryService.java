@@ -1,6 +1,5 @@
-package com.example.heb.inventory.perishables.perishablesforcastingapi.service;
+package com.example.heb.inventory.perishables.perishablesforcastingapi.perishables;
 
-import com.example.heb.inventory.perishables.perishablesforcastingapi.model.PerishableInventoryForecast;
 import org.springframework.stereotype.Service;
 
 @Service

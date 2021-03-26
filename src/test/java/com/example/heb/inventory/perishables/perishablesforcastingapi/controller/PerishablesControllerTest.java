@@ -1,6 +1,6 @@
 //package com.example.heb.inventory.perishables.perishablesforcastingapi.controller;
 //
-//import com.example.heb.inventory.perishables.perishablesforcastingapi.model.PerishableInventoryForecast;
+//import com.example.heb.inventory.perishables.perishablesforcastingapi.perishables.PerishableInventoryForecast;
 //import org.junit.jupiter.api.Test;
 //import org.mockito.Mockito;
 //import org.springframework.beans.factory.annotation.Autowired;

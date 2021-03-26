@@ -1,6 +1,6 @@
 package com.example.heb.inventory.perishables.perishablesforcastingapi;
 
-import com.example.heb.inventory.perishables.perishablesforcastingapi.controller.PerishablesController;
+import com.example.heb.inventory.perishables.perishablesforcastingapi.perishables.PerishablesController;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

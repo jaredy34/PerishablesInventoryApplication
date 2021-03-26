@@ -1,4 +1,4 @@
-package com.example.heb.inventory.perishables.perishablesforcastingapi.model;
+package com.example.heb.inventory.perishables.perishablesforcastingapi.perishables;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
